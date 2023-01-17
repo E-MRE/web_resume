@@ -31,6 +31,9 @@ class ColorName {
   /// Color: #F5EDCE
   static const Color secondaryLight = Color(0xFFF5EDCE);
 
+  /// Color: #A0C3D2
+  static const Color shadow = Color(0xFFA0C3D2);
+
   /// Color: #00C16F
   static const Color success = Color(0xFF00C16F);
 
