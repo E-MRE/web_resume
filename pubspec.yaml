@@ -59,3 +59,28 @@ flutter:
     - assets/images/png/
     - assets/translations/
     - assets/environments/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+        - asset: assets/fonts/Poppins-Light.ttf
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+flutter_gen:
+  output: lib/generation/
+  line_length: 120
+
+  assets:
+    enabled: true
+  colors:
+    enabled: true
+    inputs:
+      - assets/xml/colors.xml
+
+  integrations:
+    flutter_svg: true
