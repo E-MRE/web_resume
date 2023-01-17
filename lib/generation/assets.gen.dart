@@ -9,8 +9,20 @@
 
 import 'package:flutter/widgets.dart';
 
+class $AssetsTranslationsGen {
+  const $AssetsTranslationsGen();
+
+  /// File path: assets/translations/en-EN.json
+  String get enEN => 'assets/translations/en-EN.json';
+
+  /// File path: assets/translations/tr-TR.json
+  String get trTR => 'assets/translations/tr-TR.json';
+}
+
 class Assets {
   Assets._();
+
+  static const $AssetsTranslationsGen translations = $AssetsTranslationsGen();
 }
 
 class AssetGenImage {

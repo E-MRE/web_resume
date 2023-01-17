@@ -19,6 +19,9 @@ class ColorName {
   /// Color: #FF7E73
   static const Color errorLight = Color(0xFFFF7E73);
 
+  /// Color: #495579
+  static const Color feedColor = Color(0xFF495579);
+
   /// Color: #1A0000
   static const Color primary = Color(0xFF1A0000);
 

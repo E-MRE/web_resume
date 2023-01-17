@@ -9,4 +9,5 @@
     <color name="error">#DE5246</color>
     <color name="error_light">#FF7E73</color>
     <color name="shadow">#A0C3D2</color>
+    <color name="feed_color">#495579</color>
 </resources>
