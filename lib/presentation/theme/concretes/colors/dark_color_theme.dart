@@ -5,59 +5,47 @@ import '../../abstracts/base_color_theme.dart';
 
 class DarkColorTheme extends BaseColorTheme {
   @override
-  Color get background => ColorName.primary;
+  Color get background => ColorName.darkGrey;
 
   @override
   Brightness get brightness => Brightness.dark;
 
   @override
-  Color get error => ColorName.error;
+  Color get error => ColorName.red;
 
   @override
-  Color get errorContainer => ColorName.errorLight;
+  Color get onBackground => ColorName.lightGrey;
 
   @override
-  Color get onBackground => ColorName.secondaryLight;
+  Color get onError => ColorName.dirtyWhite;
 
   @override
-  Color get onError => ColorName.primary;
+  Color get onPrimary => ColorName.lightGrey;
 
   @override
-  Color get onErrorContainer => ColorName.primaryLight;
+  Color get onSecondary => ColorName.dirtyWhite;
 
   @override
-  Color get onPrimary => ColorName.primaryLight;
+  Color get onSurface => ColorName.lightGrey;
 
   @override
-  Color get onSecondary => ColorName.secondaryLight;
+  Color get onTertiary => ColorName.lightGreen;
 
   @override
-  Color get onSurface => ColorName.secondary;
+  Color get outline => ColorName.duskLavender;
 
   @override
-  Color get onTertiary => ColorName.secondaryLight;
+  Color get primary => ColorName.darkBlue;
 
   @override
-  Color get outline => ColorName.secondaryLight;
+  Color get secondary => ColorName.duskLavender;
 
   @override
-  Color get primary => ColorName.secondaryLight;
+  Color get shadow => ColorName.darkBlue;
 
   @override
-  Color get secondary => ColorName.primaryLight;
+  Color get surface => ColorName.duskLavender;
 
   @override
-  Color get shadow => ColorName.shadow;
-
-  @override
-  Color get surface => ColorName.primary;
-
-  @override
-  Color get surfaceVariant => ColorName.primaryLight;
-
-  @override
-  Color get tertiary => ColorName.success;
-
-  @override
-  Color get tertiaryContainer => ColorName.successLight;
+  Color get tertiary => ColorName.green;
 }

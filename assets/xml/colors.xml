@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#1A0000</color>
-    <color name="primary_light">#58287F</color>
-    <color name="secondary">#89C4E1</color>
-    <color name="secondary_light">#F5EDCE</color>
-    <color name="success">#00C16F</color>
-    <color name="success_light">#2FDF94</color>
-    <color name="error">#DE5246</color>
-    <color name="error_light">#FF7E73</color>
-    <color name="shadow">#A0C3D2</color>
-    <color name="feed_color">#495579</color>
+    <color name="light_red">#B8405E</color>
+    <color name="light_grey">#F7F5F2</color>
+    <color name="dusk_lavender">#8D8DAA</color>
+    <color name="green">#00C16F</color>
+    <color name="light_green">#2FDF94</color>
+    <color name="red">#E94560</color>
+    <color name="dark_blue">#16213E</color>
+    <color name="dirty_white">#DFDFDE</color>
+    <color name="dark_grey">#49495c</color>
+    
 </resources>

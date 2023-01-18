@@ -2,7 +2,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
-import 'package:web_resume/generation/colors.gen.dart';
 
 import 'presentation/theme/abstracts/theme_service.dart';
 import 'presentation/theme/concretes/theme_manager.dart';
@@ -22,7 +21,7 @@ void main() async {
     child: appStart._setMultiProviderByChild(
       providers: [
         ChangeNotifierProvider<ThemeService>(
-          create: (_) => ThemeManager.fromSeed(seedColor: ColorName.feedColor),
+          create: (_) => ThemeManager(),
         )
       ],
       child: const MyApp(),
@@ -42,7 +41,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: context.supportedLocales,
       locale: context.locale,
       theme: context.read<ThemeService>().theme,
-      darkTheme: context.read<ThemeService>().theme,
+      darkTheme: context.read<ThemeService>().darkTheme,
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

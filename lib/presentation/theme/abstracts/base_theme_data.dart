@@ -17,6 +17,7 @@ abstract class BaseThemeData {
       errorColor: colorTheme.error,
       fontFamily: FontFamily.poppins,
       primaryColor: colorTheme.primary,
+      useMaterial3: true,
     );
   }
 }

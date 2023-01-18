@@ -13,33 +13,30 @@ import 'package:flutter/material.dart';
 class ColorName {
   ColorName._();
 
-  /// Color: #DE5246
-  static const Color error = Color(0xFFDE5246);
+  /// Color: #16213E
+  static const Color darkBlue = Color(0xFF16213E);
 
-  /// Color: #FF7E73
-  static const Color errorLight = Color(0xFFFF7E73);
+  /// Color: #49495c
+  static const Color darkGrey = Color(0xFF49495C);
 
-  /// Color: #495579
-  static const Color feedColor = Color(0xFF495579);
+  /// Color: #DFDFDE
+  static const Color dirtyWhite = Color(0xFFDFDFDE);
 
-  /// Color: #1A0000
-  static const Color primary = Color(0xFF1A0000);
-
-  /// Color: #58287F
-  static const Color primaryLight = Color(0xFF58287F);
-
-  /// Color: #89C4E1
-  static const Color secondary = Color(0xFF89C4E1);
-
-  /// Color: #F5EDCE
-  static const Color secondaryLight = Color(0xFFF5EDCE);
-
-  /// Color: #A0C3D2
-  static const Color shadow = Color(0xFFA0C3D2);
+  /// Color: #8D8DAA
+  static const Color duskLavender = Color(0xFF8D8DAA);
 
   /// Color: #00C16F
-  static const Color success = Color(0xFF00C16F);
+  static const Color green = Color(0xFF00C16F);
 
   /// Color: #2FDF94
-  static const Color successLight = Color(0xFF2FDF94);
+  static const Color lightGreen = Color(0xFF2FDF94);
+
+  /// Color: #F7F5F2
+  static const Color lightGrey = Color(0xFFF7F5F2);
+
+  /// Color: #B8405E
+  static const Color lightRed = Color(0xFFB8405E);
+
+  /// Color: #E94560
+  static const Color red = Color(0xFFE94560);
 }

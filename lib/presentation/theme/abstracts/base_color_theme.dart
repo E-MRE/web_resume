@@ -9,15 +9,11 @@ abstract class BaseColorTheme {
   Color get onError;
   Color get background;
   Color get surface;
-  Color get surfaceVariant;
   Color get onBackground;
-  Color get errorContainer;
-  Color get onErrorContainer;
   Color get secondary;
   Color get shadow;
   Color get outline;
   Color get tertiary;
-  Color get tertiaryContainer;
   Color get onTertiary;
 
   Brightness get brightness;
